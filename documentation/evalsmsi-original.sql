@@ -85,7 +85,7 @@ CREATE TABLE `etablissement` (
 --
 
 INSERT INTO `etablissement` (`id`, `nom`, `abrege`, `adresse`, `ville`, `code_postal`, `regroupement`, `objectifs`) VALUES
-(1, 'Etablissement par défaut', 'DEFAULT', 'Ne peut être supprimé', 'Terre', 29000, NULL, '{\"1\":{\"obj_1\":4,\"obj_2\":4,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":4,\"obj_9\":6,\"obj_10\":7},\"2\":{\"obj_1\":7,\"obj_2\":6,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":4,\"obj_9\":4,\"obj_10\":4,\"obj_11\":4}}'),
+(1, 'Etablissement de test', 'TEST', '12 rue de nulle part', 'Brest', 29200, NULL, '{\"1\":{\"obj_1\":4,\"obj_2\":4,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":4,\"obj_9\":6,\"obj_10\":7},\"2\":{\"obj_1\":7,\"obj_2\":6,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":4,\"obj_9\":4,\"obj_10\":4,\"obj_11\":4}}'),
 (3, 'Etablissement de référence', 'REF', '12 rue de Siam', 'Brest', 29200, NULL, '{\"1\":{\"obj_1\":4,\"obj_2\":7,\"obj_3\":3,\"obj_4\":4,\"obj_5\":5,\"obj_6\":6,\"obj_7\":7,\"obj_8\":6,\"obj_9\":5,\"obj_10\":4},\"2\":{\"obj_1\":7,\"obj_2\":4,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":4,\"obj_9\":4,\"obj_10\":4,\"obj_11\":7},\"4\":{\"obj_1\":4,\"obj_2\":4,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":4,\"obj_9\":4,\"obj_10\":4,\"obj_11\":4,\"obj_12\":4,\"obj_13\":4,\"obj_14\":4,\"obj_15\":4,\"obj_16\":4,\"obj_17\":4,\"obj_18\":4,\"obj_19\":4,\"obj_20\":4}}'),
 (7, 'Etablissement de test2', 'TEST2', '12 rue de Corentin', 'Quimper', 29000, NULL, '{\"1\":{\"obj_1\":4,\"obj_2\":4,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":4,\"obj_9\":6,\"obj_10\":7},\"2\":{\"obj_1\":7,\"obj_2\":6,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":4,\"obj_9\":4,\"obj_10\":4,\"obj_11\":4}}'),
 (10, 'Groupe de test', 'GPT_TEAM', '12 rue de nul part', 'Rennes', 35000, '3,7', '{\"1\":{\"obj_1\":4,\"obj_2\":4,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":3,\"obj_9\":3,\"obj_10\":3},\"2\":{\"obj_1\":7,\"obj_2\":6,\"obj_3\":4,\"obj_4\":4,\"obj_5\":4,\"obj_6\":4,\"obj_7\":4,\"obj_8\":4,\"obj_9\":4,\"obj_10\":4,\"obj_11\":4}}');
@@ -500,12 +500,9 @@ CREATE TABLE `quiz` (
 
 INSERT INTO `quiz` (`id`, `filename`, `nom`, `title`) VALUES
 (1, 'hygiene.quiz.json', 'Règles d\'hygiène de l\'ANSSI', 'Maturité du numérique'),
-(2, 'iso.quiz.json', 'Norme ISO 27002:2005', 'SMSI 27002:2005'),
+(2, 'iso.quiz.json', 'Norme ISO 27002', 'Système de Management de la Sécurité de l\'Information'),
 (3, 'secnumcloud.quiz.json', 'SecNumCloud', 'Référentiel d\'exigences SecNumCloud'),
-(4, 'lpm_siiv_finance.quiz.json', 'Règles de sécurité des SIIV Finances', 'Règles de sécurité des SIIV du secteur d\'activités Finances'),
-(5, 'iso27001-2022.quiz.json', 'Norme ISO 27001:2022', 'SMSI 27001:2022'),
-(6, 'iso27002-2022.quiz.json', 'Norme ISO 27002:2022', 'SMSI 27002:2022');
-
+(4, 'lpm_siiv_finance.quiz.json', 'Règles de sécurité des SIIV Finances', 'Règles de sécurité des SIIV du secteur d\'activités Finances');
 
 -- --------------------------------------------------------
 

@@ -98,9 +98,9 @@ function displayAssessment() {
 		$assessment = unserialize($row->reponses);
 		$final_c = $row->comments;
 	}
-	if($row->valide) {
-		linkMsg("etab.php", "L'évaluation pour ".$annee." est complète et validée par les évaluateurs. Vous ne pouvez plus la modifier.", "alert.png");
-		footPage();
+		if($row->valide) {
+			linkMsg("etab.php", "L'évaluation pour ".$annee." est complète et validée par les évaluateurs. Vous ne pouvez plus la modifier.", "alert.png");
+			footPage();
 	} else {
 		# affichage de la barre de progression
 		printf("<div id='a'><div id='b'><div id='c'></div></div></div>");

@@ -20,6 +20,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 =========================================================*/
 
+ob_start(); // Démarre la mise en tampon de sortie
 
 include("functions.php");
 include("funct_etab.php");
@@ -28,9 +29,6 @@ $authorizedRole = array('3', '4', '5');
 isSessionValid($authorizedRole);
 headPage($appli_titre);
 purgeRapportsFiles();
-
-
-
 
 if (isset($_GET['action'])) {
 	switch ($_GET['action']) {
@@ -165,6 +163,7 @@ if (isset($_GET['action'])) {
 }
 
 
+ob_end_flush(); // Envoie le tampon de sortie et désactive la mise en tampon
 
 
 

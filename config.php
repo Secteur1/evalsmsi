@@ -22,7 +22,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
 // Nom de la machine hébergeant le serveur MySQL
-$servername = 'localhost';
+$servername = 'db';
 // Nom de la base de données
 $dbname = 'evalsmsi';
 // Nom de l'utilisateur autorisé à se connecter sur la BDD

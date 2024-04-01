@@ -4,7 +4,7 @@
 // Description: global functions of EvalSMSI
 // Created:     2009-01-01
 // Licence:     GPL-3.0-or-later
-// Copyright 2009-2021 Michel Dubois
+// Copyright 2009-2020 Michel Dubois
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -28,8 +28,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 // Ne pas modifier ces variables !
 date_default_timezone_set('Europe/Paris');
 setlocale(LC_ALL, 'fr_FR.utf8');
-#ini_set('error_reporting', E_ALL);
-ini_set('error_reporting', E_ERROR);
+ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 ini_set('xdebug.var_display_max_depth', 8);
@@ -66,8 +65,8 @@ $attestationMode = $configs['attestationMode'];
 $sessionDuration = $configs['sessionDuration'];
 
 $noteMax = 7;
-$progVersion = '5.3.0';
-$progDate = '10 février 2021';
+$progVersion = '5.2.0';
+$progDate = '02 janvier 2021';
 $cspReport = "csp_parser.php";
 $server_path = dirname($_SERVER['SCRIPT_FILENAME']);
 $cheminRAP = sprintf("%s/rapports/", $server_path);
@@ -97,14 +96,21 @@ function menuAdmin() {
 	printf("<div class='column left'>");
 	linkMsg("admin.php?action=new_user", "Ajouter un utilisateur", "add_user.png", 'menu');
 	linkMsg("admin.php?action=select_user", "Modifier un utilisateur", "modif_user.png", 'menu');
-	linkMsg("admin.php?action=select_quiz", "Visualiser un questionnaire", "eval_continue.png", 'menu');
+	linkMsg("admin.php?action=delete_user", "Supprimer un utilisateur", "modif_user.png", 'menu');
 	linkMsg("admin.php?action=authentication", "Gestion de l'authentification", "fingerprint.png", 'menu');
-	linkMsg("admin.php?action=maintenance", "Maintenance de la Base de Données", "bdd.png", 'menu');
+	printf("<br>");	
+	linkMsg("admin.php?action=select_quiz", "Visualiser un questionnaire", "eval_continue.png", 'menu');
+	linkMsg("admin.php?action=create_quiz", "Créer un questionnaire", "eval_continue.png", 'menu');
+	linkMsg("admin.php?action=edit_quiz", "Éditer un questionnaire", "eval_continue.png", 'menu');
+	linkMsg("admin.php?action=delete_quiz", "Supprimer un questionnaire", "eval_continue.png", 'menu');
 	printf("</div><div class='column right'>");
 	linkMsg("admin.php?action=new_etab", "Créer un établissement", "add_etab.png", 'menu');
+	linkMsg("admin.php?action=delete_etab", "Supprimer un établissement", "add_etab.png", 'menu');
 	linkMsg("admin.php?action=select_etab", "Modifier un établissement", "modif_etab.png", 'menu');
 	linkMsg("admin.php?action=new_regroup", "Créer un établissement de regroupement", "add_regroup.png", 'menu');
 	linkMsg("admin.php?action=bilan_etab", "Bilan global des établissements", "bilan.png", 'menu');
+	printf("<br>");	
+	linkMsg("admin.php?action=maintenance", "Maintenance de la Base de Données", "bdd.png", 'menu');
 	printf("</div></div>");
 }
 
@@ -2035,7 +2041,8 @@ function createWordDoc() {
 function exportEval() {
 	global $appli_titre, $appli_titre_short;
 	$name_quiz = getQuizName();
-	$dir = dirname($_SERVER['PHP_SELF']);
+	# $dir = dirname($_SERVER['PHP_SELF']);
+	$dir = dirname($_SERVER['HTTP_HOST']);
 	$id_etab = $_SESSION['id_etab'];
 	$id_quiz = $_SESSION['quiz'];
 	$annee = $_SESSION['annee'];
@@ -2287,7 +2294,8 @@ function generateExcellRapport($annee) {
 function exportRules() {
 	$name_quiz = getQuizName();
 	$quiz = getJsonFile();
-	$script = dirname($_SERVER['PHP_SELF']);
+	# $script = dirname($_SERVER['PHP_SELF']); # <- n'affiche pas le domaine sur l'URL ...
+	$script = dirname($_SERVER['HTTP_HOST']);
 	$fileDoc = "rapports/referentiel.docx";
 	$filePdf = "rapports/referentiel.pdf";
 

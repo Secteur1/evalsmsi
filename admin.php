@@ -66,6 +66,12 @@ if (isset($_GET['action'])) {
 		footPage();
 		break;
 
+	case 'delete_user':
+		$_SESSION['current_user'] = $_POST['user'];
+		deleteUser();
+		footPage();
+		break;
+
 	case 'new_regroup':
 		createEtablissement('regroup');
 		footPage();
@@ -110,6 +116,11 @@ if (isset($_GET['action'])) {
 		footPage();
 		break;
 
+	case 'delete_etab':
+		displayDeleteForm();
+		footPage();
+		break;
+
 	case 'record_etab':
 		if (recordEtablissement('add')) {
 			linkMsg($_SESSION['curr_script'], "Etablissement créé dans la base", "ok.png");
@@ -137,6 +148,21 @@ if (isset($_GET['action'])) {
 		$_SESSION['quiz'] = intval($_POST['quiz']);
 		modifications();
 		footPage($_SESSION['curr_script'], "Accueil");
+		break;
+
+	case 'create_quiz':
+		createReferentiel();
+		footPage();
+		break;
+
+	case 'delete_quiz':
+		deleteReferentiel();
+		footPage();
+		break;
+
+	case 'edit_quiz':
+		editReferentiel();
+		footPage();
 		break;
 
 	case 'bilan_etab':

@@ -36,7 +36,7 @@ function loadLogs() {
 
 
 function stringifyArray(data) {
-	let temp = ''
+	temp = ''
 	for (let [key, value] of Object.entries(data)) {
 		temp += key + ' => ' + value + '\n';
 	}

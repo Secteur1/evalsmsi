@@ -1,0 +1,478 @@
+[
+  {
+    "numero": 1,
+    "libelle": "Exigence 4",
+    "abrege": "Contexte de l'organisme",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Compréhension de l’organisme et de son contexte",
+        "comment": "L’organisme doit déterminer les enjeux externes et internes pertinents compte tenu de sa mission et qui ont une incidence sur sa capacité à obtenir le(s) résultat(s) attendu(s) de son système de management de la sécurité de l’information.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Avez-vous des preuves documentées montrant comment les enjeux externes et internes sont identifiés et leur impact sur le SMSI est évalué?",
+            "mesure": "L'organisation devrait avoir une méthode documentée pour identifier et évaluer régulièrement les enjeux externes et internes, avec des preuves de ces activités.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Compréhension des besoins et attentes des parties intéressées",
+        "comment": "L’organisme doit déterminer les parties intéressées qui sont concernées par le système de management de la sécurité de l’information, les exigences pertinentes de ces parties intéressées, et lesquelles de ces exigences seront traitées par le biais du système de management de la sécurité de l’information.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées démontrant que les besoins et attentes des parties intéressées ont été déterminés et pris en compte dans le SMSI?",
+            "mesure": "L'organisation doit maintenir un registre documenté des parties intéressées et de leurs exigences en matière de sécurité de l'information, avec des preuves des méthodes utilisées pour déterminer et gérer ces exigences.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Détermination du domaine d’application du SMSI",
+        "comment": "Pour établir le domaine d’application du SMSI, l’organisme doit en déterminer les limites et l’applicabilité, en prenant en compte les enjeux externes et internes, les exigences des parties intéressées, et les interfaces et dépendances avec d'autres organismes.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Avez-vous des preuves documentées définissant les limites et l'applicabilité du SMSI?",
+            "mesure": "L'organisation doit fournir des documents clairs délimitant le périmètre du SMSI, y compris les informations et actifs concernés et les justifications pour toute exclusion, basée sur les enjeux et les exigences des parties intéressées identifiés.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "libelle": "Système de management de la sécurité de l’information",
+        "comment": "L’organisme doit établir, mettre en œuvre, tenir à jour et améliorer en continu un système de management de la sécurité de l’information, y compris les processus nécessaires et leurs interactions.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées montrant comment le SMSI est établi, mis en œuvre, maintenu et constamment amélioré?",
+            "mesure": "L'organisation doit démontrer avec des documents une approche systématique pour gérer son SMSI, y compris des processus documentés et des preuves des audits internes et des procédures d'amélioration continue.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      }
+    ]
+  },   
+  {
+    "numero": 2,
+    "libelle": "Exigence 5",
+    "abrege": "Leadership",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Leadership et engagement",
+        "comment": "La direction doit démontrer son leadership et son engagement envers le SMSI.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Quelles preuves documentées attestent de l'engagement de la direction pour le SMSI, incluant la politique de sécurité de l'information et les objectifs alignés avec la direction stratégique ?",
+            "mesure": "L'organisation doit fournir des documents tels que la déclaration de politique de sécurité de l'information signée par la direction, les objectifs de sécurité alignés sur les objectifs d'affaires, et des comptes rendus démontrant l'implication de la direction dans le suivi et l'amélioration du SMSI.",
+            "poids": 15,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Politique",
+        "comment": "La direction doit établir une politique de sécurité de l'information.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous montrer des preuves documentées que la politique de sécurité de l'information est appropriée au but du SMSI, qu'elle inclut un engagement pour l'amélioration continue et qu'elle est communiquée au sein de l'organisation ainsi qu'aux parties intéressées pertinentes ?",
+            "mesure": "Il doit y avoir des documents officiels tels que la politique de sécurité de l'information et des preuves de communication de cette politique à tous les employés et parties intéressées concernées.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Rôles, responsabilités et autorités au sein de l’organisme",
+        "comment": "La direction doit s’assurer que les rôles concernés par la sécurité de l’information ont des responsabilités et autorités clairement attribuées et communiquées.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Avez-vous des preuves documentées qui définissent, attribuent et communiquent clairement les rôles, responsabilités et autorités relatifs au SMSI au sein de votre organisation ?",
+            "mesure": "Il devrait y avoir des descriptions de poste, des organigrammes, et des dossiers de communication interne démontrant la distribution claire des responsabilités et autorités en matière de SMSI.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "libelle": "Allocation de ressources",
+        "comment": "La direction doit allouer les ressources nécessaires pour établir, mettre en œuvre, entretenir et améliorer en continu le SMSI.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous présenter des preuves documentées que les ressources nécessaires ont été allouées pour soutenir l'établissement, la mise en œuvre, l'entretien et l'amélioration continue du SMSI ?",
+            "mesure": "Des documents tels que des plans budgétaires, des affectations de personnel, et des inventaires de ressources physiques et informatiques allouées au SMSI doivent être mis à disposition pour l'audit.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      }
+    ]
+  },   
+  {
+    "numero": 3,
+    "libelle": "Exigence 6",
+    "abrege": "Planification",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Actions à mettre en œuvre face aux risques et opportunités",
+        "comment": "L'organisme doit identifier et planifier les actions à mettre en œuvre pour aborder les risques et opportunités relatifs à la sécurité de l'information.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de l'identification des risques et opportunités, ainsi que des actions planifiées pour y faire face ?",
+            "mesure": "Des documents tels qu'un processus formel d'identification des risques et opportunités, des enregistrements des risques identifiés, des actions spécifiques planifiées pour aborder ces risques et opportunités, et leur intégration dans les processus du SMSI devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Pouvez-vous fournir des preuves documentées de l'intégration des actions planifiées dans les processus du SMSI et de l'évaluation de leur efficacité ?",
+            "mesure": "Des documents tels que des procédures documentées indiquant l'intégration des actions planifiées dans les processus du SMSI, ainsi que des enregistrements d'évaluation de l'efficacité de ces actions devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Appréciation des risques de sécurité de l’information",
+        "comment": "L'organisme doit définir et appliquer un processus d'appréciation des risques de sécurité de l'information conforme aux critères établis.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de l'existence et de la mise en œuvre d'un processus d'appréciation des risques de sécurité de l'information ?",
+            "mesure": "Des documents tels qu'un processus documenté d'appréciation des risques, des critères établis pour cette appréciation, ainsi que des enregistrements de résultats d'appréciation des risques devraient être disponibles.",
+            "poids": 15,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Traitement des risques de sécurité de l’information",
+        "comment": "L'organisme doit définir et appliquer un processus de traitement des risques pour choisir et mettre en œuvre les options de traitement des risques appropriées.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées du processus de choix et de mise en œuvre des options de traitement des risques de sécurité de l'information ?",
+            "mesure": "Des documents tels que des descriptions du processus de choix des options de traitement des risques, des mesures de traitement nécessaires identifiées, ainsi que des enregistrements de comparaison avec les mesures de l'Annexe A devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "libelle": "Objectifs de sécurité de l’information et plans pour les atteindre",
+        "comment": "L'organisme doit établir des objectifs de sécurité de l'information mesurables et planifier comment atteindre ces objectifs.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de vos objectifs de sécurité de l'information et des plans pour les atteindre ?",
+            "mesure": "Des documents tels que des objectifs de sécurité de l'information documentés, des plans d'action spécifiques pour les atteindre, ainsi que des enregistrements de ressources, responsabilités, délais et méthodes d'évaluation devraient être disponibles.",
+            "poids": 15,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "libelle": "Planification des modifications",
+        "comment": "Les modifications nécessaires du SMSI doivent être réalisées de manière planifiée.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées du processus de planification, d'examen et d'approbation des modifications du SMSI ?",
+            "mesure": "Des documents tels que des procédures documentées pour la planification, l'examen et l'approbation des modifications du SMSI, ainsi que des preuves de contrôle pour s'assurer que les modifications ne compromettent pas la sécurité de l'information devraient être disponibles.",
+            "poids": 5,
+            "level": 1
+          }
+        ]
+      }
+    ]
+  },  
+  {
+    "numero": 4,
+    "libelle": "Exigence 7",
+    "abrege": "Support",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Ressources",
+        "comment": "Identifier et fournir les ressources nécessaires pour le SMSI.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de l'identification et de la fourniture des ressources nécessaires au SMSI ?",
+            "mesure": "Des documents tels qu'un processus documenté d'évaluation des besoins en ressources, des enregistrements de cette évaluation, ainsi que des preuves de fourniture des ressources nécessaires devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Compétences",
+        "comment": "Assurer la compétence des personnes affectant la performance de sécurité.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de la détermination des compétences nécessaires et de l'assurance de la compétence des personnes ?",
+            "mesure": "Des documents tels qu'une évaluation des compétences nécessaires, des enregistrements de formation ou de recrutement appropriés, ainsi que des preuves de compétence des personnes devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Sensibilisation",
+        "comment": "Sensibiliser le personnel à la politique de sécurité et à leur rôle.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées des programmes de sensibilisation à la sécurité de l'information au sein de l'organisation ?",
+            "mesure": "Des documents tels que des programmes de sensibilisation documentés, des enregistrements de participation des employés, ainsi que des retours d'information sur l'efficacité des programmes devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "libelle": "Communication",
+        "comment": "Déterminer les besoins de communication interne et externe relatifs au SMSI.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de votre plan de communication pour le SMSI ?",
+            "mesure": "Des documents tels qu'un plan de communication documenté spécifiant les sujets, les timings, les destinataires et les moyens de communication devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "libelle": "Informations documentées",
+        "comment": "Inclure les informations documentées requises par la norme et celles jugées nécessaires par l'organisme.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de la gestion des informations documentées requises par la norme et celles jugées nécessaires par l'organisme ?",
+            "mesure": "Des documents tels que des procédures documentées pour la gestion des informations documentées, des enregistrements assurant leur disponibilité et leur protection devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      }
+    ]
+  },  
+  {
+    "numero": 5,
+    "libelle": "Exigence 8",
+    "abrege": "Fonctionnement",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Planification et maîtrise opérationnelles",
+        "comment": "Planifier, mettre en œuvre et maîtriser les processus nécessaires pour répondre aux exigences et réaliser les actions définies dans l'Article 6.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de l'établissement de critères pour vos processus et de la mesure de la sécurité de ces processus ?",
+            "mesure": "Des documents tels que des critères clairs pour chaque processus, des mesures de sécurité mises en œuvre pour assurer leur conformité, ainsi que des enregistrements de mesure de la sécurité des processus devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Pouvez-vous fournir des preuves documentées de la gestion des modifications prévues et des conséquences des modifications imprévues ?",
+            "mesure": "Des documents tels que des procédures pour contrôler les modifications prévues, des analyses des conséquences des modifications imprévues, ainsi que des actions prises pour limiter tout effet négatif devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Pouvez-vous fournir des preuves documentées du processus de contrôle des processus, produits ou services fournis en externe ?",
+            "mesure": "Des documents tels que des contrôles établis pour assurer la conformité des processus, produits ou services externes pertinents pour le SMSI devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Appréciation des risques de sécurité de l’information",
+        "comment": "Réalisation des appréciations des risques de sécurité de l'information à des intervalles planifiés ou lors de changements significatifs.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de la réalisation et de la documentation de l'appréciation des risques de sécurité de l'information ?",
+            "mesure": "Des documents tels que des procédures pour l'appréciation des risques, des informations documentées sur les résultats de l'appréciation devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Traitement des risques de sécurité de l’information",
+        "comment": "Mise en œuvre du plan de traitement des risques de sécurité de l'information.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de la mise en œuvre et de la documentation du traitement des risques de sécurité de l'information ?",
+            "mesure": "Des documents tels que des enregistrements d'exécution du plan de traitement des risques, des informations documentées sur les résultats du traitement des risques devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      }
+    ]
+  },  
+  {
+    "numero": 6,
+    "libelle": "Exigence 9",
+    "abrege": "Évaluation de la performance",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Surveillance, mesures, analyse et évaluation",
+        "comment": "Déterminer ce qui doit être surveillé et mesuré, y compris les méthodes et les responsabilités.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées des éléments que l'organisme a déterminés nécessaires à surveiller et à mesurer concernant le SMSI ?",
+            "mesure": "Des documents tels que des listes des processus et des mesures de sécurité de l'information à surveiller et à mesurer devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Pouvez-vous fournir des preuves documentées des méthodes utilisées par l'organisme pour assurer la validité des résultats de surveillance et de mesurage ?",
+            "mesure": "Des documents tels que des procédures définissant les méthodes de surveillance, de mesurage, d'analyse et d'évaluation pour garantir la comparabilité et la reproductibilité des résultats devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Audit interne",
+        "comment": "Réaliser des audits internes pour vérifier la conformité et l'efficacité du SMSI.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées de la planification et de la réalisation des audits internes du SMSI par l'organisme ?",
+            "mesure": "Des documents tels que des programmes d'audit interne, des rapports d'audit, des procédures définissant la planification et la réalisation des audits devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Revue de direction",
+        "comment": "La direction doit revoir le SMSI pour s'assurer qu'il reste approprié, adapté et efficace.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées des éléments pris en considération par la direction lors de la revue du SMSI ?",
+            "mesure": "Des documents tels que des rapports de revue de direction, des analyses des performances de sécurité de l'information, des décisions d'amélioration devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Pouvez-vous fournir des preuves documentées des résultats des revues de direction et de leur documentation ?",
+            "mesure": "Des documents tels que des enregistrements des résultats de revue de direction, des décisions prises et des actions d'amélioration devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      }
+    ]
+  },  
+  {
+    "numero": 7,
+    "libelle": "Exigence 10",
+    "abrege": "Amélioration",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Amélioration continue",
+        "comment": "L'organisme doit continuellement améliorer la pertinence, l'adéquation et l'efficacité du SMSI.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées des mécanismes mis en place par l'organisme pour évaluer et améliorer continuellement la pertinence, l'adéquation et l'efficacité du SMSI ?",
+            "mesure": "Des documents tels que des enregistrements d'évaluations périodiques du SMSI, des rapports d'amélioration continue, des procédures pour la mise en œuvre de mesures correctives et préventives devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Comment l'organisme assure-t-il que les résultats des évaluations sont utilisés pour identifier les opportunités d'amélioration du SMSI ?",
+            "mesure": "Documentation des processus permettant d'identifier les lacunes, les faiblesses et les opportunités d'amélioration à partir des évaluations périodiques du SMSI.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Non-conformité et action corrective",
+        "comment": "Gestion des non-conformités et mise en œuvre des actions correctives appropriées.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées des procédures mises en place par l'organisme pour répondre à une non-conformité, la maîtriser, la corriger et traiter ses conséquences ?",
+            "mesure": "Des documents tels que des procédures pour la gestion des non-conformités, des rapports d'incidents, des enregistrements des actions correctives prises devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Pouvez-vous fournir des preuves documentées de l'évaluation des non-conformités, de la détermination des causes et de l'investigation sur l'existence de non-conformités similaires ?",
+            "mesure": "Des documents tels que des rapports d'analyse de non-conformités, des registres de suivi des causes et des actions prises devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Pouvez-vous fournir des preuves documentées de la revue de l'efficacité des actions correctives mises en œuvre par l'organisme ?",
+            "mesure": "Des documents tels que des rapports de revue de l'efficacité des actions correctives, des enregistrements de suivi de l'efficacité des mesures prises devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Pouvez-vous fournir des preuves documentées de la conservation des informations sur la gestion des non-conformités et des actions correctives ?",
+            "mesure": "Des documents tels que des registres de non-conformités, des enregistrements d'actions correctives et préventives, des revues de direction devraient être disponibles.",
+            "poids": 10,
+            "level": 1
+          }
+        ]
+      }
+    ]
+  }   
+]

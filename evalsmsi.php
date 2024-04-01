@@ -4,7 +4,7 @@
 // Description: main page and authentication process of EvalSMSI
 // Created:     2009-01-01
 // Licence:     GPL-3.0-or-later
-// Copyright 2009-2021 Michel Dubois
+// Copyright 2009-2019 Michel Dubois
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -55,7 +55,7 @@ function footPageAuth() {
 function menuLogin() {
 	global $auhtPict;
 	genSyslog(__FUNCTION__);
-	printf("<div class='authcontainer'>");
+	printf("<div class='authcont'>");
 	printf("<div class='auth'>");
 	printf("<img src=%s alt='CyberSécurité'>", $auhtPict);
 	printf("</div><div class='auth'>");
@@ -69,7 +69,7 @@ function menuLogin() {
 function menuPassword($msg='') {
 	global $auhtPict;
 	genSyslog(__FUNCTION__);
-	printf("<div class='authcontainer'>");
+	printf("<div class='authcont'>");
 	printf("<div class='auth'><img src=%s alt='CyberSécurité'></div>", $auhtPict);
 	printf("<div class='auth'>");
 	if (isset($_SESSION['registration'])) {
@@ -117,7 +117,7 @@ function authentification($password) {
 	genSyslog(__FUNCTION__);
 	$data = getUserData();
 	if ($data) {
-		if (($_SESSION['login'] === $data->login) && (password_verify($password, $data->password))) {
+		if (($_SESSION['login'] === $data->login) and (password_verify($password, $data->password))) {
 			return $data;
 		} else {
 			return false;
@@ -210,6 +210,7 @@ function redirectUser($data) {
 			break;
 	}
 }
+
 
 
 

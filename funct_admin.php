@@ -221,6 +221,59 @@ function recordUser($action) {
 	}
 }
 
+function deleteUser() {
+    genSyslog(__FUNCTION__);
+    $base = dbConnect();
+
+    // Vérifier si le formulaire a été soumis
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['confirm_delete'])) {
+        // Vérifier si l'utilisateur a sélectionné un utilisateur à supprimer
+        if(isset($_POST['user']) && $_POST['user'] !== '') {
+            $user_id = $_POST['user'];
+            // Requête SQL pour supprimer l'utilisateur avec l'ID spécifié
+            $request_delete = "DELETE FROM users WHERE id = $user_id";
+            // Exécuter la requête de suppression
+            $result_delete = mysqli_query($base, $request_delete);
+            // Vérifier si la suppression a réussi
+            if ($result_delete) {
+                echo "L'utilisateur a été supprimé avec succès.";
+            } else {
+                echo "Une erreur s'est produite lors de la suppression de l'utilisateur : " . mysqli_error($base);
+            }
+        } else {
+            echo "Veuillez sélectionner un utilisateur à supprimer.";
+        }
+    }
+
+    // Récupérer les utilisateurs depuis la base de données
+    $request = "SELECT id, nom, prenom FROM users WHERE role <> '1' ORDER BY nom";
+    $result = mysqli_query($base, $request);
+    
+    // Afficher le formulaire de suppression d'utilisateur
+    printf("<form method='post' id='delete_user' action='admin.php?action=delete_user'>");
+    printf("<fieldset><legend>Suppression d'un utilisateur</legend>");
+    printf("<table><tr><td>");
+    printf("Utilisateur :&nbsp;<select name='user' id='user' required>");
+    printf("<option value='' selected='selected'>Sélectionnez un utilisateur</option>");
+    
+    // Afficher chaque utilisateur dans la liste déroulante
+    while ($row = mysqli_fetch_object($result)) {
+        printf("<option value='%s'>%s %s</option>", $row->id, mb_strtoupper($row->nom), $row->prenom);
+    }
+    
+    printf("</select>");
+    printf("</td></tr></table></fieldset>");
+    
+    // Ajouter une case à cocher pour la confirmation de suppression
+    printf("<input type='checkbox' id='confirm_delete' name='confirm_delete' required>");
+    printf("<label for='confirm_delete'>Confirmer la suppression</label>");
+    
+    // Bouton de soumission du formulaire
+	validForms('Supprimer', 'admin.php');
+
+
+    dbDisconnect($base);
+}
 
 function createEtablissement($action='') {
 	genSyslog(__FUNCTION__);
@@ -257,6 +310,95 @@ function createEtablissement($action='') {
 	printf("</form>");
 	dbDisconnect($base);
 }
+
+// Fonction pour afficher le formulaire de suppression
+function displayDeleteForm() {
+    genSyslog(__FUNCTION__);
+    $base = dbConnect();
+
+    // Vérifier si le formulaire a été soumis
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['etablissement_id']) && isset($_POST['confirm_delete'])) {
+        $etablissement_id = $_POST['etablissement_id'];
+        // Vérifier si la case de confirmation est cochée
+        if ($_POST['confirm_delete'] == 'on') {
+            // Appeler la fonction pour supprimer l'établissement
+            deleteEtablissement($etablissement_id);
+        } else {
+            echo "Veuillez confirmer la suppression.";
+        }
+    }
+
+    printf("<form method='post' id='delete_etablissement' action='admin.php?action=delete_etab'>");
+    printf("<fieldset><legend>Suppression d'un établissement</legend>");
+    printf("<select name='etablissement_id' required>");
+    
+    // Récupérer les établissements depuis la base de données
+    $request = "SELECT id, nom FROM etablissement";
+    $result = mysqli_query($base, $request);
+
+    // Afficher chaque établissement dans une liste déroulante
+    while($row = mysqli_fetch_object($result)) {
+        printf("<option value='%d'>%s</option>", $row->id, $row->nom);
+    }
+
+    printf("</select>");
+    printf("</fieldset>");
+    
+    // Ajouter une case à cocher pour la confirmation de suppression
+    printf("<input type='checkbox' id='confirm_delete' name='confirm_delete'>");
+    printf("<label for='confirm_delete'>Confirmer la suppression</label>");
+    
+    // Bouton de soumission du formulaire
+	validForms('Supprimer', 'admin.php');
+
+
+    dbDisconnect($base);
+}
+
+function deleteEtablissement($etablissement_id) {
+    genSyslog(__FUNCTION__);
+    $base = dbConnect();
+
+    // Vérifier si l'établissement à supprimer n'est pas l'établissement 1
+    if ($etablissement_id == 1) {
+        echo "Vous ne pouvez pas supprimer l'établissement 1.";
+        dbDisconnect($base);
+        return;
+    }
+
+    // Supprimer l'établissement de la base de données en utilisant son ID
+    $request = "DELETE FROM etablissement WHERE id = $etablissement_id";
+    $result = mysqli_query($base, $request);
+
+    if ($result) {
+        // Mettre à jour les utilisateurs associés à cet établissement
+        $updateRequest = "UPDATE users SET etablissement = REPLACE(REPLACE(etablissement, '$etablissement_id,', ''), ',$etablissement_id', ''), etablissement = REPLACE(etablissement, '$etablissement_id', '') WHERE FIND_IN_SET('$etablissement_id', etablissement) OR etablissement = '$etablissement_id'";
+        $updateResult = mysqli_query($base, $updateRequest);
+
+        if ($updateResult) {
+            echo "L'établissement a été supprimé avec succès et les références des utilisateurs associés ont été mises à jour.";
+        } else {
+            echo "L'établissement a été supprimé avec succès, mais une erreur s'est produite lors de la mise à jour des références des utilisateurs associés.";
+        }
+    } else {
+        echo "Une erreur s'est produite lors de la suppression de l'établissement.";
+    }
+
+    // Mettre à jour les utilisateurs dont la colonne etablissement est vide pour mettre NULL
+    $nullRequest = "UPDATE users SET etablissement = '1' WHERE etablissement = ''";
+    $nullResult = mysqli_query($base, $nullRequest);
+
+    if ($nullResult) {
+        echo "Les valeurs vides dans la colonne 'etablissement' ont été mises à jour avec succès.";
+    } else {
+        echo "Une erreur s'est produite lors de la mise à jour des valeurs vides dans la colonne 'etablissement'.";
+    }
+
+    dbDisconnect($base);
+}
+
+
+
 
 
 function selectEtablissementModif() {
@@ -521,6 +663,169 @@ function bilanByEtab() {
 	}
 	printf("</div>");
 	dbDisconnect($base);
+}
+
+function createReferentiel() {
+    genSyslog(__FUNCTION__);
+    $base = dbConnect();
+
+    // Vérifier si le formulaire a été soumis
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['filename'], $_POST['nom'], $_POST['title'])) {
+        $filename = mysqli_real_escape_string($base, $_POST['filename']);
+        $nom = mysqli_real_escape_string($base, $_POST['nom']);
+        $title = mysqli_real_escape_string($base, $_POST['title']);
+
+        // Commande SQL d'insertion des données
+        $request = "INSERT INTO quiz (filename, nom, title) VALUES ('$filename', '$nom', '$title')";
+        
+        // Exécuter la commande SQL
+        $result = mysqli_query($base, $request);
+
+        if ($result) {
+            echo "Le référentiel a été créé avec succès.";
+        } else {
+            echo "Une erreur s'est produite lors de la création du référentiel : " . mysqli_error($base);
+        }
+    }
+
+    // Affichage du formulaire
+    printf("<form method='post' id='referentiel_form' action='admin.php?action=create_quiz'>");
+    printf("<fieldset><legend>Création d'un référentiel</legend>");
+    printf("<label for='filename'>Nom du fichier :</label>");
+    printf("<input type='text' name='filename' id='filename' required><br>");
+    printf("<label for='nom'>Nom :</label>");
+    printf("<input type='text' name='nom' id='nom' required><br>");
+    printf("<label for='title'>Titre :</label>");
+    printf("<input type='text' name='title' id='title' required><br>");
+    printf("</fieldset>");
+	validForms('Créer', 'admin.php');
+
+    dbDisconnect($base);
+}
+
+
+function deleteReferentiel() {
+    genSyslog(__FUNCTION__);
+    $base = dbConnect();
+
+    // Vérifier si le formulaire a été soumis
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['referentiel_id'])) {
+        $referentiel_id = mysqli_real_escape_string($base, $_POST['referentiel_id']);
+
+        // Vérifier si la confirmation de suppression a été cochée
+        if (isset($_POST['confirm_delete']) && $_POST['confirm_delete'] == 'on') {
+            // Commande SQL de suppression des données
+            $request = "DELETE FROM quiz WHERE id = $referentiel_id";
+            
+            // Exécuter la commande SQL
+            $result = mysqli_query($base, $request);
+
+            if ($result) {
+                echo "Le référentiel a été supprimé avec succès.";
+            } else {
+                echo "Une erreur s'est produite lors de la suppression du référentiel : " . mysqli_error($base);
+            }
+        } else {
+            echo "Veuillez confirmer la suppression.";
+        }
+    }
+
+    // Affichage du formulaire
+    printf("<form method='post' id='delete_referentiel_form' action='admin.php?action=delete_quiz'>");
+    printf("<fieldset><legend>Suppression d'un référentiel</legend>");
+    
+    // Récupérer les référentiels depuis la base de données
+    $request = "SELECT id, nom FROM quiz";
+    $result = mysqli_query($base, $request);
+
+    // Afficher chaque référentiel dans une liste déroulante
+    printf("<label for='referentiel_id'>Sélectionnez le référentiel à supprimer :</label>");
+    printf("<select name='referentiel_id' id='referentiel_id' required>");
+    while($row = mysqli_fetch_object($result)) {
+        printf("<option value='%d'>%s</option>", $row->id, $row->nom);
+    }
+    printf("</select>");
+
+    // Ajout d'une case à cocher pour confirmer la suppression
+    printf("<br><input type='checkbox' id='confirm_delete' name='confirm_delete'>");
+    printf("<label for='confirm_delete'>Confirmer la suppression</label>");
+
+    printf("</fieldset>");
+	validForms('Supprimer', 'admin.php');
+
+    dbDisconnect($base);
+}
+
+function editReferentiel() {
+    genSyslog(__FUNCTION__);
+    $base = dbConnect();
+
+	// Générer un nonce
+	$nonce = $_SESSION['nonce'];
+
+    // Vérifier si le formulaire a été soumis
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['referentiel_id'], $_POST['filename'], $_POST['nom'], $_POST['title'])) {
+        $referentiel_id = mysqli_real_escape_string($base, $_POST['referentiel_id']);
+        $filename = mysqli_real_escape_string($base, $_POST['filename']);
+        $nom = mysqli_real_escape_string($base, $_POST['nom']);
+        $title = mysqli_real_escape_string($base, $_POST['title']);
+
+        // Vérifier si la confirmation de modification a été cochée
+        if (isset($_POST['confirm_edit']) && $_POST['confirm_edit'] == 'on') {
+            // Commande SQL pour mettre à jour les données du référentiel
+            $request = "UPDATE quiz SET filename='$filename', nom='$nom', title='$title' WHERE id = $referentiel_id";
+            
+            // Exécuter la commande SQL
+            $result = mysqli_query($base, $request);
+
+            if ($result) {
+                echo "Le référentiel a été modifié avec succès.";
+            } else {
+                echo "Une erreur s'est produite lors de la modification du référentiel : " . mysqli_error($base);
+            }
+        } else {
+            echo "Veuillez confirmer la modification.";
+        }
+    }
+
+    // Affichage du formulaire
+    printf("<form method='post' id='edit_referentiel_form' action='admin.php?action=edit_quiz'>");
+    printf("<fieldset><legend>Édition d'un référentiel</legend>");
+
+    // Récupérer les référentiels depuis la base de données
+    $request = "SELECT id, filename, nom, title FROM quiz";
+    $result = mysqli_query($base, $request);
+
+// Afficher chaque référentiel dans une liste déroulante
+printf("<label for='referentiel_id'>Sélectionnez le référentiel à éditer :</label>");
+printf("<select name='referentiel_id' id='referentiel_id' required>");
+while($row = mysqli_fetch_object($result)) {
+    printf("<option value='%d' data-filename='%s' data-title='%s' data-nom='%s'>%s</option>", $row->id, $row->filename, $row->title, $row->nom, $row->nom);
+}
+printf("</select>");
+
+    // Ajout d'un conteneur pour afficher les détails du référentiel sélectionné
+    printf("<div id='details_referentiel'></div>");
+
+    // Ajout des champs pour éditer les informations du référentiel
+    printf("<br><label for='filename'>Nom du fichier :</label>");
+    printf("<input type='text' name='filename' id='filename' required><br>");
+    printf("<label for='nom'>Nom :</label>");
+    printf("<input type='text' name='nom' id='nom' required><br>");
+    printf("<label for='title'>Titre :</label>");
+    printf("<input type='text' name='title' id='title' required><br>");
+
+    // Ajout d'une case à cocher pour confirmer l'édition
+    printf("<br><input type='checkbox' id='confirm_edit' name='confirm_edit'>");
+    printf("<label for='confirm_edit'>Confirmer la modification</label>");
+
+    printf("</fieldset>");
+	validForms('Enregistrer', 'admin.php');
+
+
+    // Inclure le fichier JavaScript externe avec le nonce
+    printf("<script nonce='%s' src='js/edit_referentiel.js'></script>", $nonce);
+    dbDisconnect($base);
 }
 
 

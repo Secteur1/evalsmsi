@@ -1,0 +1,1747 @@
+[
+  {
+    "numero": 1,
+    "libelle": "Mesures organisationnelles",
+    "abrege": "Mesure de sécurité",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Politiques de sécurité de l’information",
+        "comment": "Une politique de sécurité de l’information et des politiques spécifiques à une thématique doivent être définies, approuvées par la direction, publiées, communiquées et demandée en confirmation au personnel et aux parties intéressées concernés, ainsi que révisées à intervalles planifiés et si des changements significatifs ont lieu.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Avez-vous des preuves documentées montrant comment les politiques de sécurité de l’information sont révisées à intervalles planifiés et en cas de changements significatifs?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de la révision périodique et de la mise à jour des politiques de sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Les politiques de sécurité de l’information sont-elles approuvées par la direction et communiquées à tout le personnel et aux parties intéressées?",
+            "mesure": "L'organisation doit démontrer que les politiques de sécurité de l’information sont approuvées par la direction et communiquées à tout le personnel et aux parties intéressées.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant que les politiques de sécurité de l’information sont communiquées et demandées en confirmation au personnel et aux parties intéressées concernés?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la communication et de la confirmation des politiques de sécurité de l’information auprès du personnel et des parties intéressées concernés.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Disposez-vous de preuves documentées montrant que les politiques de sécurité de l’information sont révisées en cas de changements significatifs?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de la révision des politiques de sécurité de l’information en cas de changements significatifs.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Fonctions et responsabilités liées à la sécurité de l’information",
+        "comment": "Les fonctions et responsabilités liées à la sécurité de l’information doivent être définies et attribuées selon les besoins de l’organisme.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Pouvez-vous fournir des preuves documentées démontrant que les fonctions et responsabilités liées à la sécurité de l’information sont régulièrement évaluées et ajustées en fonction des besoins de l’organisme?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de l'évaluation régulière et de l'ajustement des fonctions et responsabilités liées à la sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Les fonctions et responsabilités liées à la sécurité de l’information sont-elles définies en fonction des besoins de l’organisme?",
+            "mesure": "L'organisation doit démontrer que les fonctions et responsabilités liées à la sécurité de l’information sont définies en fonction des besoins de l’organisme.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les fonctions et responsabilités liées à la sécurité de l’information sont attribuées?",
+            "mesure": "L'organisation doit fournir des preuves documentées de l'attribution des fonctions et responsabilités liées à la sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Les fonctions et responsabilités liées à la sécurité de l’information sont-elles ajustées en fonction des besoins de l’organisme?",
+            "mesure": "L'organisation doit démontrer que les fonctions et responsabilités liées à la sécurité de l’information sont ajustées en fonction des besoins de l’organisme.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Séparation des tâches",
+        "comment": "Les tâches et les domaines de responsabilité incompatibles doivent être séparés.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les tâches et les domaines de responsabilité incompatibles sont identifiés et maintenus séparés?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de l'identification et du maintien de la séparation des tâches et des domaines de responsabilité incompatibles.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Les tâches et les domaines de responsabilité incompatibles sont-ils identifiés?",
+            "mesure": "L'organisation doit démontrer que les tâches et les domaines de responsabilité incompatibles sont identifiés.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les tâches et les domaines de responsabilité incompatibles sont maintenus séparés?",
+            "mesure": "L'organisation doit fournir des preuves documentées du maintien de la séparation des tâches et des domaines de responsabilité incompatibles.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Les tâches et les domaines de responsabilité incompatibles sont-ils maintenus séparés?",
+            "mesure": "L'organisation doit démontrer que les tâches et les domaines de responsabilité incompatibles sont maintenus séparés.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "libelle": "Responsabilités de la direction",
+        "comment": "La direction doit demander à tout le personnel d’appliquer les mesures de sécurité de l’information conformément à la politique de sécurité de l’information, aux politiques spécifiques à une thématique et aux procédures établies de l’organisme.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Avez-vous des preuves documentées montrant comment la direction communique régulièrement les politiques de sécurité de l’information et les procédures établies à tout le personnel?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de la communication régulière des politiques de sécurité de l’information et des procédures établies à tout le personnel.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "La direction communique-t-elle régulièrement les politiques de sécurité de l’information et les procédures établies à tout le personnel?",
+            "mesure": "L'organisation doit démontrer que la direction communique régulièrement les politiques de sécurité de l’information et les procédures établies à tout le personnel.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment la direction demande confirmation au personnel concerné?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la demande de confirmation au personnel concerné par la direction.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "La direction demande-t-elle confirmation au personnel concerné?",
+            "mesure": "L'organisation doit démontrer que la direction demande confirmation au personnel concerné.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "libelle": "Contacts avec les autorités",
+        "comment": "L’organisme doit établir et maintenir le contact avec les autorités appropriées.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées démontrant que l’organisme établit des procédures pour communiquer rapidement et efficacement avec les autorités en cas d'incident de sécurité de l'information?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de l’établissement de procédures pour communiquer avec les autorités en cas d'incident de sécurité de l'information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "L’organisme établit-il des procédures pour communiquer avec les autorités en cas d'incident de sécurité de l'information?",
+            "mesure": "L'organisation doit démontrer qu'elle établit des procédures pour communiquer avec les autorités en cas d'incident de sécurité de l'information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées démontrant que l’organisme communique rapidement et efficacement avec les autorités en cas d'incident de sécurité de l'information?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la communication rapide et efficace avec les autorités en cas d'incident de sécurité de l'information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "L’organisme communique-t-il rapidement et efficacement avec les autorités en cas d'incident de sécurité de l'information?",
+            "mesure": "L'organisation doit démontrer qu'elle communique rapidement et efficacement avec les autorités en cas d'incident de sécurité de l'information.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "libelle": "Contacts avec des groupes d’intérêt spécifiques",
+        "comment": "L’organisme doit établir et maintenir des contacts avec des groupes d’intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées démontrant que l’organisme établit et maintient des contacts avec des groupes d’intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de l’établissement et du maintien des contacts avec des groupes d’intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "L’organisme établit-il et maintient-il des contacts avec des groupes d’intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles?",
+            "mesure": "L'organisation doit démontrer qu'elle établit et maintient des contacts avec des groupes d’intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées démontrant que l’organisme établit et maintient des contacts réguliers avec des groupes d’intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles?",
+            "mesure": "L'organisation doit fournir des preuves documentées de l’établissement et du maintien de contacts réguliers avec des groupes d’intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "L’organisme établit-il et maintient-il des contacts réguliers avec des groupes d’intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles?",
+            "mesure": "L'organisation doit démontrer qu'elle établit et maintient des contacts réguliers avec des groupes d’intérêt spécifiques ou autres forums spécialisés sur la sécurité et associations professionnelles.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "libelle": "Renseignement sur les menaces",
+        "comment": "Les informations relatives aux menaces liées à la sécurité de l’information doivent être collectées et analysées pour produire les renseignements sur les menaces.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées démontrant comment les informations relatives aux menaces liées à la sécurité de l’information sont collectées?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de la collecte des informations relatives aux menaces liées à la sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Les informations relatives aux menaces liées à la sécurité de l’information sont-elles collectées?",
+            "mesure": "L'organisation doit démontrer que les informations relatives aux menaces liées à la sécurité de l’information sont collectées.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les informations relatives aux menaces liées à la sécurité de l’information sont analysées?",
+            "mesure": "L'organisation doit fournir des preuves documentées de l'analyse des informations relatives aux menaces liées à la sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Les informations relatives aux menaces liées à la sécurité de l’information sont-elles analysées?",
+            "mesure": "L'organisation doit démontrer que les informations relatives aux menaces liées à la sécurité de l’information sont analysées.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "libelle": "Sécurité de l’information dans la gestion de projet",
+        "comment": "La sécurité de l’information doit être intégrée à la gestion de projet.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées démontrant comment la sécurité de l’information est intégrée à la gestion de projet?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de l'intégration de la sécurité de l’information à la gestion de projet.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "La sécurité de l’information est-elle intégrée à la gestion de projet?",
+            "mesure": "L'organisation doit démontrer que la sécurité de l’information est intégrée à la gestion de projet.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les risques liés à la sécurité de l’information sont pris en compte dans la gestion de projet?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la prise en compte des risques liés à la sécurité de l’information dans la gestion de projet.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Les risques liés à la sécurité de l’information sont-ils pris en compte dans la gestion de projet?",
+            "mesure": "L'organisation doit démontrer que les risques liés à la sécurité de l’information sont pris en compte dans la gestion de projet.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "libelle": "Inventaire des informations et autres actifs associés",
+        "comment": "Un inventaire des informations et des autres actifs associés, y compris leurs propriétaires, doit être élaboré et tenu à jour.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées démontrant comment un inventaire des informations et des autres actifs associés est élaboré et tenu à jour?",
+            "mesure": "L'organisation doit maintenir des preuves documentées de l'élaboration et de la mise à jour de l'inventaire des informations et des autres actifs associés.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Un inventaire des informations et des autres actifs associés est-il élaboré?",
+            "mesure": "L'organisation doit démontrer que un inventaire des informations et des autres actifs associés est élaboré.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment l'inventaire des informations et des autres actifs associés est tenu à jour?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la mise à jour de l'inventaire des informations et des autres actifs associés.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "L'inventaire des informations et des autres actifs associés est-il tenu à jour?",
+            "mesure": "L'organisation doit démontrer que l'inventaire des informations et des autres actifs associés est tenu à jour.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "libelle": "Classement de l’information",
+        "comment": "L’information doit être classée en fonction des critères de sensibilité et des impacts potentiels sur l’organisme.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées démontrant comment l’information est classée en fonction des critères de sensibilité et des impacts potentiels?",
+            "mesure": "L'organisation doit maintenir des preuves documentées du classement de l’information en fonction des critères de sensibilité et des impacts potentiels.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "L’information est-elle classée en fonction des critères de sensibilité et des impacts potentiels?",
+            "mesure": "L'organisation doit démontrer que l’information est classée en fonction des critères de sensibilité et des impacts potentiels.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment le classement de l’information est communiqué au personnel concerné?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la communication du classement de l’information au personnel concerné.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Le classement de l’information est-il communiqué au personnel concerné?",
+            "mesure": "L'organisation doit démontrer que le classement de l’information est communiqué au personnel concerné.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "libelle": "Gestion des actifs",
+        "comment": "Des responsabilités doivent être attribuées pour la gestion des actifs, et des mesures doivent être prises pour les protéger.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment des responsabilités sont attribuées pour la gestion des actifs?",
+            "mesure": "L'organisation doit fournir des preuves documentées de l'attribution de responsabilités pour la gestion des actifs.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Des responsabilités sont-elles attribuées pour la gestion des actifs?",
+            "mesure": "L'organisation doit démontrer que des responsabilités sont attribuées pour la gestion des actifs.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les actifs sont protégés?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la protection des actifs.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Les actifs sont-ils protégés?",
+            "mesure": "L'organisation doit démontrer que les actifs sont protégés.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "libelle": "Politique de classification des informations",
+        "comment": "Une politique de classification des informations doit être définie, approuvée par la direction, publiée et communiquée à tout le personnel concerné.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment la politique de classification des informations est définie, approuvée par la direction et publiée?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la définition, de l'approbation par la direction et de la publication de la politique de classification des informations.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "La politique de classification des informations est-elle définie, approuvée par la direction et publiée?",
+            "mesure": "L'organisation doit démontrer que la politique de classification des informations est définie, approuvée par la direction et publiée.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment la politique de classification des informations est communiquée à tout le personnel concerné?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la communication de la politique de classification des informations à tout le personnel concerné.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "La politique de classification des informations est-elle communiquée à tout le personnel concerné?",
+            "mesure": "L'organisation doit démontrer que la politique de classification des informations est communiquée à tout le personnel concerné.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "libelle": "Gestion des informations",
+        "comment": "Des processus doivent être mis en place pour assurer la gestion efficace des informations sur la base de leur classification et de leurs besoins de protection.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment des processus sont mis en place pour assurer la gestion efficace des informations?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la mise en place de processus pour assurer la gestion efficace des informations.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Des processus sont-ils mis en place pour assurer la gestion efficace des informations?",
+            "mesure": "L'organisation doit démontrer que des processus sont mis en place pour assurer la gestion efficace des informations.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les informations sont gérées sur la base de leur classification et de leurs besoins de protection?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la gestion des informations sur la base de leur classification et de leurs besoins de protection.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Les informations sont-elles gérées sur la base de leur classification et de leurs besoins de protection?",
+            "mesure": "L'organisation doit démontrer que les informations sont gérées sur la base de leur classification et de leurs besoins de protection.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "libelle": "Sécurité des documents",
+        "comment": "Des mesures doivent être prises pour protéger les documents contre la perte, la destruction, la falsification, la divulgation non autorisée et l’accès non autorisé.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment des mesures sont prises pour protéger les documents contre la perte, la destruction, la falsification, la divulgation non autorisée et l’accès non autorisé?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la prise de mesures pour protéger les documents contre la perte, la destruction, la falsification, la divulgation non autorisée et l’accès non autorisé.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Des mesures sont-elles prises pour protéger les documents contre la perte, la destruction, la falsification, la divulgation non autorisée et l’accès non autorisé?",
+            "mesure": "L'organisation doit démontrer que des mesures sont prises pour protéger les documents contre la perte, la destruction, la falsification, la divulgation non autorisée et l’accès non autorisé.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les documents sont protégés contre la perte, la destruction, la falsification, la divulgation non autorisée et l’accès non autorisé?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la protection des documents contre la perte, la destruction, la falsification, la divulgation non autorisée et l’accès non autorisé.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Les documents sont-ils protégés contre la perte, la destruction, la falsification, la divulgation non autorisée et l’accès non autorisé?",
+            "mesure": "L'organisation doit démontrer que les documents sont protégés contre la perte, la destruction, la falsification, la divulgation non autorisée et l’accès non autorisé.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "libelle": "Gestion des supports amovibles",
+        "comment": "Des procédures doivent être mises en place pour la gestion des supports amovibles afin de prévenir la perte, le vol, la fuite, la destruction ou la modification non autorisée de l’information, et pour assurer leur disponibilité.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment des procédures sont mises en place pour la gestion des supports amovibles?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la mise en place de procédures pour la gestion des supports amovibles.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Des procédures sont-elles mises en place pour la gestion des supports amovibles?",
+            "mesure": "L'organisation doit démontrer que des procédures sont mises en place pour la gestion des supports amovibles.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les supports amovibles sont prévenus contre la perte, le vol, la fuite, la destruction ou la modification non autorisée?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la prévention des supports amovibles contre la perte, le vol, la fuite, la destruction ou la modification non autorisée.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Les supports amovibles sont-ils prévenus contre la perte, le vol, la fuite, la destruction ou la modification non autorisée?",
+            "mesure": "L'organisation doit démontrer que les supports amovibles sont prévenus contre la perte, le vol, la fuite, la destruction ou la modification non autorisée.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "libelle": "Politique de sécurité des équipements",
+        "comment": "Une politique de sécurité des équipements doit être définie, approuvée par la direction, publiée et communiquée à tout le personnel concerné.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment la politique de sécurité des équipements est définie, approuvée par la direction et publiée?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la définition, de l'approbation par la direction et de la publication de la politique de sécurité des équipements.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "La politique de sécurité des équipements est-elle définie, approuvée par la direction et publiée?",
+            "mesure": "L'organisation doit démontrer que la politique de sécurité des équipements est définie, approuvée par la direction et publiée.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment la politique de sécurité des équipements est communiquée à tout le personnel concerné?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la communication de la politique de sécurité des équipements à tout le personnel concerné.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "La politique de sécurité des équipements est-elle communiquée à tout le personnel concerné?",
+            "mesure": "L'organisation doit démontrer que la politique de sécurité des équipements est communiquée à tout le personnel concerné.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "libelle": "Responsabilités de l'utilisateur",
+        "comment": "Les utilisateurs doivent être responsables de la sécurité de l’information et doivent suivre les procédures et instructions établies par l’organisme.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les utilisateurs sont responsabilisés pour la sécurité de l’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la responsabilisation des utilisateurs pour la sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "Les utilisateurs sont-ils responsabilisés pour la sécurité de l’information?",
+            "mesure": "L'organisation doit démontrer que les utilisateurs sont responsabilisés pour la sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment les utilisateurs suivent les procédures et instructions établies par l’organisme?",
+            "mesure": "L'organisation doit fournir des preuves documentées du suivi par les utilisateurs des procédures et instructions établies par l’organisme.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "Les utilisateurs suivent-ils les procédures et instructions établies par l’organisme?",
+            "mesure": "L'organisation doit démontrer que les utilisateurs suivent les procédures et instructions établies par l’organisme.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "libelle": "Sensibilisation en matière de sécurité",
+        "comment": "La direction doit s'assurer que tout le personnel et, le cas échéant, les tiers travaillant pour le compte de l'organisme, sont sensibilisés aux menaces en matière de sécurité de l’information et à la politique de sécurité de l’information de l’organisme, y compris les exigences en matière de conformité.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment la direction s'assure que tout le personnel est sensibilisé aux menaces en matière de sécurité de l’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la sensibilisation du personnel aux menaces en matière de sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "La direction s'assure-t-elle que tout le personnel est sensibilisé aux menaces en matière de sécurité de l’information?",
+            "mesure": "L'organisation doit démontrer que la direction s'assure que tout le personnel est sensibilisé aux menaces en matière de sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment la direction s'assure que tout le personnel est sensibilisé à la politique de sécurité de l’information de l’organisme, y compris les exigences en matière de conformité?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la sensibilisation du personnel à la politique de sécurité de l’information de l’organisme, y compris les exigences en matière de conformité.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "La direction s'assure-t-elle que tout le personnel est sensibilisé à la politique de sécurité de l’information de l’organisme, y compris les exigences en matière de conformité?",
+            "mesure": "L'organisation doit démontrer que la direction s'assure que tout le personnel est sensibilisé à la politique de sécurité de l’information de l’organisme, y compris les exigences en matière de conformité.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "libelle": "Revue de la sécurité de l’information",
+        "comment": "La direction doit revoir la performance de la sécurité de l’information à intervalles prévus ou lorsque des événements importants surviennent.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de preuves documentées montrant comment la direction passe en revue la performance de la sécurité de l’information à intervalles prévus?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la revue de la performance de la sécurité de l’information à intervalles prévus.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 2,
+            "libelle": "La direction passe-t-elle en revue la performance de la sécurité de l’information à intervalles prévus?",
+            "mesure": "L'organisation doit démontrer que la direction passe en revue la performance de la sécurité de l’information à intervalles prévus.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 3,
+            "libelle": "Disposez-vous de preuves documentées montrant comment la direction passe en revue la performance de la sécurité de l’information lorsque des événements importants surviennent?",
+            "mesure": "L'organisation doit fournir des preuves documentées de la revue de la performance de la sécurité de l’information lorsque des événements importants surviennent.",
+            "poids": 1,
+            "level": 1
+          },
+          {
+            "numero": 4,
+            "libelle": "La direction passe-t-elle en revue la performance de la sécurité de l’information lorsque des événements importants surviennent?",
+            "mesure": "L'organisation doit démontrer que la direction passe en revue la performance de la sécurité de l’information lorsque des événements importants surviennent.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+      "numero": 20,
+      "libelle": "La sécurité de l’information dans les accords conclus avec les fournisseurs",
+      "comment": "Les exigences de sécurité de l’information appropriées doivent être mises en place et convenues avec chaque fournisseur, selon le type de relation avec le fournisseur.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment les exigences de sécurité de l’information sont convenues avec chaque fournisseur?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment les exigences de sécurité de l’information sont convenues avec chaque fournisseur, selon le type de relation avec le fournisseur.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 21,
+      "libelle": "Gestion de la sécurité de l’information dans la chaîne d’approvisionnement TIC",
+      "comment": "Des processus et procédures pour gérer les risques liés à la sécurité de l’information associés à la chaîne d’approvisionnement des produits et services TIC doivent être définis et mis en œuvre.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de processus et procédures documentés pour gérer les risques liés à la sécurité de l’information dans la chaîne d’approvisionnement TIC?",
+          "mesure": "L'organisation doit fournir des processus et procédures documentés pour gérer les risques liés à la sécurité de l’information dans la chaîne d’approvisionnement TIC.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 22,
+      "libelle": "Surveillance, révision et gestion des changements des services fournisseurs",
+      "comment": "L’organisme doit procéder régulièrement à la surveillance, à la révision, à l’évaluation et à la gestion des changements des pratiques de sécurité de l’information du fournisseur et de prestation de services.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment vous surveillez, révisez, évaluez et gérez les changements des pratiques de sécurité de l’information du fournisseur?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment elle surveille, révise, évalue et gère les changements des pratiques de sécurité de l’information du fournisseur.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 23,
+      "libelle": "Sécurité de l’information dans l’utilisation de services en nuage",
+      "comment": "Les processus d’acquisition, d’utilisation, de gestion et de cessation des services en nuage doivent être établis conformément aux exigences de sécurité de l’information de l’organisme.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de processus documentés pour l’acquisition, l’utilisation, la gestion et la cessation des services en nuage?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de processus documentés pour l’acquisition, l’utilisation, la gestion et la cessation des services en nuage.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 24,
+      "libelle": "Planification et préparation de la gestion des incidents liés à la sécurité de l’information",
+      "comment": "L’organisme doit planifier et préparer la gestion des incidents liés à la sécurité de l’information en procédant à la définition, à l’établissement et à la communication des processus, fonctions et responsabilités liés à la gestion des incidents liés à la sécurité de l’information.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment vous planifiez et préparez la gestion des incidents liés à la sécurité de l’information?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment elle planifie et prépare la gestion des incidents liés à la sécurité de l’information.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 25,
+      "libelle": "Évaluation des événements liés à la sécurité de l’information et prise de décision",
+      "comment": "L’organisme doit évaluer les événements liés à la sécurité de l’information et décider s’ils doivent être catégorisés comme des incidents liés à la sécurité de l’information.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment vous évaluez les événements liés à la sécurité de l’information?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment elle évalue les événements liés à la sécurité de l’information.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 26,
+      "libelle": "Réponse aux incidents liés à la sécurité de l’information",
+      "comment": "La réponse aux incidents liés à la sécurité de l’information doit être conforme aux procédures documentées.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de procédures documentées pour répondre aux incidents liés à la sécurité de l’information?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures documentées pour répondre aux incidents liés à la sécurité de l’information.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 27,
+      "libelle": "Tirer des enseignements des incidents liés à la sécurité de l’information",
+      "comment": "Les connaissances acquises à partir des incidents liés à la sécurité de l’information doivent être utilisées pour renforcer et améliorer les mesures de sécurité de l’information.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment vous tirez des enseignements des incidents liés à la sécurité de l’information?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment elle tire des enseignements des incidents liés à la sécurité de l’information.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 28,
+      "libelle": "Collecte de preuves",
+      "comment": "L’organisme doit établir et mettre en œuvre des procédures pour l’identification, la collecte, l’acquisition et la préservation des preuves relatives aux événements liés à la sécurité de l’information.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de procédures documentées pour identifier, collecter, acquérir et préserver les preuves relatives aux événements liés à la sécurité de l’information?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures documentées pour identifier, collecter, acquérir et préserver les preuves relatives aux événements liés à la sécurité de l’information.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 29,
+      "libelle": "Sécurité de l’information pendant une perturbation",
+      "comment": "L’organisme doit planifier comment maintenir la sécurité de l’information au niveau approprié pendant une perturbation.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous d'un plan documenté pour maintenir la sécurité de l’information pendant une perturbation?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose d'un plan documenté pour maintenir la sécurité de l’information pendant une perturbation.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 30,
+      "libelle": "Préparation des TIC pour la continuité d’activité",
+      "comment": "La préparation des TIC doit être planifiée, mise en œuvre, maintenue et testée en se basant sur les objectifs de continuité d’activité et des exigences de continuité des TIC.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous d'un plan documenté pour préparer les TIC à la continuité d’activité?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose d'un plan documenté pour préparer les TIC à la continuité d’activité.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 31,
+      "libelle": "Exigences légales, statutaires, réglementaires et contractuelles",
+      "comment": "Les exigences légales, statutaires, réglementaires et contractuelles pertinentes pour la sécurité de l’information, ainsi que l’approche de l’organisme pour respecter ces exigences, doivent être identifiées, documentées et tenues à jour.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment vous identifiez, documentez et tenez à jour les exigences légales, statutaires, réglementaires et contractuelles?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment elle identifie, documente et tient à jour les exigences légales, statutaires, réglementaires et contractuelles.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 32,
+      "libelle": "Droits de propriété intellectuelle",
+      "comment": "L’organisme doit mettre en œuvre les procédures appropriées pour protéger les droits de propriété intellectuelle.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de procédures documentées pour protéger les droits de propriété intellectuelle?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures documentées pour protéger les droits de propriété intellectuelle.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 33,
+      "libelle": "Protection des documents d’activité",
+      "comment": "Les documents d’activité doivent être protégés de la perte, de la destruction, de la falsification, des accès non autorisés et des diffusions non autorisées.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment vous protégez les documents d’activité?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment elle protège les documents d’activité.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 34,
+      "libelle": "Protection de la vie privée et des DCP",
+      "comment": "L’organisme doit identifier et respecter les exigences relatives à la protection de la vie privée et des DCP conformément aux lois, réglementations et exigences contractuelles applicables.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment vous identifiez et respectez les exigences relatives à la protection de la vie privée et des DCP?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment elle identifie et respecte les exigences relatives à la protection de la vie privée et des DCP.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 35,
+      "libelle": "Révision indépendante de la sécurité de l’information",
+      "comment": "L’approche de l’organisme pour gérer la sécurité de l’information et sa mise en œuvre, y compris les personnes, les processus et les technologies, doit être révisée de manière indépendante à intervalles planifiés, ou lorsque des changements significatifs se produisent.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment vous effectuez des révisions indépendantes de la sécurité de l’information?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment elle effectue des révisions indépendantes de la sécurité de l’information.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 36,
+      "libelle": "Conformité aux politiques, règles et normes de sécurité de l’information",
+      "comment": "La conformité à la politique de sécurité de l’information, aux politiques spécifiques à une thématique, aux règles et aux normes de l’organisme doit être régulièrement vérifiée.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de preuves documentées montrant comment vous vérifiez la conformité aux politiques, règles et normes de sécurité de l’information?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant comment elle vérifie la conformité aux politiques, règles et normes de sécurité de l’information.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      },
+      {
+      "numero": 37,
+      "libelle": "Procédures d’exploitation documentées",
+      "comment": "Les procédures d’exploitation des moyens de traitement de l’information doivent être documentées et mises à disposition du personnel qui en a besoin.",
+      "questions": [
+        {
+          "numero": 1,
+          "libelle": "Disposez-vous de procédures documentées pour les moyens de traitement de l’information?",
+          "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures documentées pour les moyens de traitement de l’information.",
+          "poids": 1,
+          "level": 1
+        }
+      ]
+      }
+  ]
+  },
+  {
+    "numero": 2,
+    "libelle": "Mesures liées aux personnes",
+    "abrege": "Mesure de sécurité",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Sélection des candidats",
+        "comment": "Les vérifications des références de tous les candidats à l’embauche doivent être réalisées avant qu’ils n’intègrent l’organisme puis de façon continue en tenant compte des lois, des réglementations et de l’éthique applicables, et doivent être proportionnelles aux exigences métier, à la classification des informations auxquelles ils auront accès et aux risques identifiés.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de procédures documentées pour les vérifications des références des candidats à l'embauche?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures pour les vérifications des références des candidats à l'embauche.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Termes et conditions du contrat de travail",
+        "comment": "Les contrats de travail doivent indiquer les responsabilités du personnel et de l’organisme en matière de sécurité de l’information.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de contrats de travail contenant des clauses relatives aux responsabilités en matière de sécurité de l’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant que les contrats de travail contiennent des clauses relatives aux responsabilités en matière de sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Sensibilisation, enseignement et formation en sécurité de l’information",
+        "comment": "Le personnel de l’organisme et les parties intéressées pertinentes doivent recevoir une sensibilisation, un enseignement et des formations en sécurité de l’information appropriés, ainsi que des mises à jour régulières de la politique de sécurité de l’information, des politiques spécifiques à une thématique et des procédures de l’organisme pertinentes à leur fonction.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous d'un programme de sensibilisation, enseignement et formation en sécurité de l’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose d'un programme de sensibilisation, enseignement et formation en sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "libelle": "Processus disciplinaire",
+        "comment": "Un processus disciplinaire permettant de prendre des mesures à l’encontre du personnel et d’autres parties intéressées qui ont commis une violation de la politique de sécurité de l’information doit être formalisé et communiqué.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous d'un processus disciplinaire pour les violations de la politique de sécurité de l’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose d'un processus disciplinaire pour les violations de la politique de sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "libelle": "Responsabilités après la fin ou le changement d’un emploi",
+        "comment": "Les responsabilités et les obligations relatives à la sécurité de l’information qui restent valables après la fin ou le changement d’un emploi doivent être définies, appliquées et communiquées au personnel et autres parties intéressées pertinentes.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de procédures pour définir et communiquer les responsabilités après la fin ou le changement d’un emploi?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures pour définir et communiquer les responsabilités après la fin ou le changement d’un emploi.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "libelle": "Accords de confidentialité ou de non-divulgation",
+        "comment": "Des accords de confidentialité ou de non-divulgation, représentant les besoins de l’organisme relatifs à la protection des informations, doivent être identifiés, documentés, régulièrement révisés et signés.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous d'accords de confidentialité ou de non-divulgation régulièrement révisés et signés?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose d'accords de confidentialité ou de non-divulgation régulièrement révisés et signés.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "libelle": "Travail à distance",
+        "comment": "Des mesures de sécurité doivent être mises en œuvre lorsque le personnel travaille à distance, pour protéger les informations accessibles, traitées ou stockées en dehors des locaux de l’organisme.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures de sécurité pour le travail à distance?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures de sécurité pour le travail à distance.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "libelle": "Déclaration des événements liés à la sécurité de l’information",
+        "comment": "L’organisme doit fournir un mécanisme au personnel pour déclarer rapidement les événements liés à la sécurité de l’information observés ou suspectés, à travers des canaux appropriés.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous d'un mécanisme de déclaration des événements liés à la sécurité de l’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose d'un mécanisme de déclaration des événements liés à la sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 3,
+    "libelle": "Contrôles physiques",
+    "abrege": "Mesure de sécurité",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Périmètres de sécurité physique",
+        "comment": "Des périmètres de sécurité doivent être définis et utilisés pour protéger les zones qui contiennent les informations et autres actifs associés.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de périmètres de sécurité physique définis et utilisés pour protéger les zones contenant les informations et autres actifs associés?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de périmètres de sécurité physique définis et utilisés pour protéger les zones contenant les informations et autres actifs associés.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Les entrées physique",
+        "comment": "Les zones sécurisées doivent être protégées par des mesures de sécurité des accès et des points d’accès appropriés.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures de sécurité des accès et des points d’accès appropriés pour protéger les zones sécurisées?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures de sécurité des accès et des points d’accès appropriés pour protéger les zones sécurisées.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Sécurisation des bureaux, des salles et des installations",
+        "comment": "Des mesures de sécurité physique pour les bureaux, les salles et les installations doivent être conçues et mises en œuvre.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures de sécurité physique conçues et mises en œuvre pour les bureaux, les salles et les installations?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures de sécurité physique conçues et mises en œuvre pour les bureaux, les salles et les installations.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "libelle": "Surveillance de la sécurité physique",
+        "comment": "Les locaux doivent être continuellement surveillés pour empêcher l’accès physique non autorisé.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de systèmes de surveillance pour empêcher l’accès physique non autorisé?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de systèmes de surveillance pour empêcher l’accès physique non autorisé.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "libelle": "Protection contre les menaces physiques et environnementales",
+        "comment": "Une protection contre les menaces physiques et environnementales doit être conçue et mise en œuvre.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures de protection contre les menaces physiques et environnementales?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures de protection contre les menaces physiques et environnementales.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "libelle": "Travail dans les zones sécurisées",
+        "comment": "Des mesures de sécurité pour le travail dans les zones sécurisées doivent être conçues et mises en œuvre.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures de sécurité pour le travail dans les zones sécurisées?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures de sécurité pour le travail dans les zones sécurisées.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "libelle": "Bureau propre et écran vide",
+        "comment": "Des règles du bureau vide, dégagé des documents papier et des supports de stockage amovibles, et des règles de l’écran vide pour les moyens de traitement de l’information, doivent être définies et appliquées de manière appropriée.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de règles pour maintenir les bureaux vides et les écrans vides?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de règles pour maintenir les bureaux vides et les écrans vides.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "libelle": "Emplacement et protection du matériel",
+        "comment": "Un emplacement sécurisé pour le matériel doit être choisi et protégé.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous d'un emplacement sécurisé pour le matériel?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose d'un emplacement sécurisé pour le matériel.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "libelle": "Sécurité des actifs hors des locaux",
+        "comment": "Les actifs hors du site doivent être protégés.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour protéger les actifs hors du site?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour protéger les actifs hors du site.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "libelle": "Supports de stockage",
+        "comment": "Les supports de stockage doivent être gérés tout au long de leur cycle de vie d’acquisition, d’utilisation, de transport et de mise au rebut, conformément au schéma de classification et aux exigences de traitement de l’organisme.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de procédures pour gérer les supports de stockage tout au long de leur cycle de vie?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures pour gérer les supports de stockage tout au long de leur cycle de vie.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "libelle": "Services supports",
+        "comment": "Les moyens de traitement de l’information doivent être protégés contre les coupures de courant et autres perturbations causées par des défaillances des services supports.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour protéger les moyens de traitement de l’information contre les défaillances des services supports?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour protéger les moyens de traitement de l’information contre les défaillances des services supports.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "libelle": "Sécurité du câblage",
+        "comment": "Les câbles électriques, transportant des données ou supportant les services d’information, doivent être protégés contre des interceptions, interférences ou dommages.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour protéger le câblage électrique contre des interceptions, interférences ou dommages?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour protéger le câblage électrique contre des interceptions, interférences ou dommages.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "libelle": "Maintenance du matériel",
+        "comment": "Le matériel doit être entretenu correctement pour assurer la disponibilité, l’intégrité et la confidentialité de l’information.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de procédures pour assurer la maintenance du matériel?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures pour assurer la maintenance du matériel.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "libelle": "Élimination ou recyclage sécurisé(e) du matériel",
+        "comment": "Les éléments du matériel contenant des supports de stockage doivent être vérifiés pour s’assurer que toute donnée sensible et que tout logiciel sous licence ont été supprimés ou écrasés de façon sécurisée, avant son élimination ou sa réutilisation.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de procédures pour éliminer ou recycler de manière sécurisée le matériel?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures pour éliminer ou recycler de manière sécurisée le matériel.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 4,
+    "libelle": "Mesures technologiques",
+    "abrege": "Mesure de sécurité",
+    "subdomains": [
+      {
+        "numero": 1,
+        "libelle": "Terminaux utilisateurs",
+        "comment": "Les informations stockées, traitées ou accessibles via un terminal utilisateur, doivent être protégées.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour protéger les informations stockées, traitées ou accessibles via les terminaux utilisateurs?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour protéger les informations stockées, traitées ou accessibles via les terminaux utilisateurs.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "libelle": "Droits d’accès privilégiés",
+        "comment": "L’attribution et l’utilisation des droits d’accès privilégiés doivent être limitées et gérées.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour limiter et gérer l’attribution et l’utilisation des droits d’accès privilégiés?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour limiter et gérer l’attribution et l’utilisation des droits d’accès privilégiés.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "libelle": "Restriction d’accès aux informations",
+        "comment": "L’accès aux informations et autres actifs associés doit être restreint conformément à la politique spécifique à la thématique du contrôle d’accès qui a été établie.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour restreindre l’accès aux informations et autres actifs associés?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour restreindre l’accès aux informations et autres actifs associés conformément à la politique spécifique à la thématique du contrôle d’accès qui a été établie.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "libelle": "Accès au code source",
+        "comment": "L’accès en lecture et en écriture au code source, aux outils de développement et aux bibliothèques de logiciels doit être géré de manière appropriée.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour gérer l’accès au code source, aux outils de développement et aux bibliothèques de logiciels?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour gérer l’accès au code source, aux outils de développement et aux bibliothèques de logiciels de manière appropriée.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "libelle": "Authentification sécurisée",
+        "comment": "Des technologies et procédures d’authentification sécurisées doivent être mises en œuvre sur la base des restrictions d’accès aux informations et de la politique spécifique à la thématique du contrôle d’accès.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de technologies et procédures d’authentification sécurisées conformément aux restrictions d’accès aux informations et à la politique spécifique à la thématique du contrôle d’accès?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de technologies et procédures d’authentification sécurisées conformément aux restrictions d’accès aux informations et à la politique spécifique à la thématique du contrôle d’accès.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "libelle": "Dimensionnement",
+        "comment": "L’utilisation des ressources doit être surveillée et ajustée selon les besoins de dimensionnement actuels et prévus.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour surveiller et ajuster l’utilisation des ressources selon les besoins de dimensionnement?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour surveiller et ajuster l’utilisation des ressources selon les besoins de dimensionnement actuels et prévus.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "libelle": "Protection contre les programmes malveillants (malware)",
+        "comment": "Une protection contre les programmes malveillants doit être mise en œuvre et renforcée par une sensibilisation appropriée des utilisateurs.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour mettre en œuvre une protection contre les programmes malveillants?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour mettre en œuvre une protection contre les programmes malveillants et qu'elle renforce la sensibilisation des utilisateurs à ce sujet.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "libelle": "Gestion des vulnérabilités techniques",
+        "comment": "Des informations sur les vulnérabilités techniques des systèmes d’information utilisés doivent être obtenues, l’exposition de l’organisme à ces vulnérabilités doit être évaluée et des mesures appropriées doivent être prises.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour gérer les vulnérabilités techniques de vos systèmes d’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour gérer les vulnérabilités techniques de ses systèmes d’information.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "libelle": "Gestion des configurations",
+        "comment": "Les configurations, y compris les configurations de sécurité, du matériel, des logiciels, des services et des réseaux, doivent être définies, documentées, mises en œuvre, surveillées et révisées.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour gérer les configurations de vos systèmes et réseaux?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour gérer les configurations de ses systèmes et réseaux.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "libelle": "Suppression d’information",
+        "comment": "Les informations stockées dans les systèmes d’information, les terminaux ou tout autre support de stockage doivent être supprimées lorsqu’elles ne sont plus nécessaires.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour supprimer les informations lorsque celles-ci ne sont plus nécessaires?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour supprimer les informations lorsque celles-ci ne sont plus nécessaires.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "libelle": "Masquage des données",
+        "comment": "Le masquage des données doit être utilisé conformément à la politique spécifique à la thématique du contrôle d’accès de l’organisme et d’autres politiques spécifiques à une thématique associées, ainsi qu’aux exigences métier, tout en prenant en compte la législation applicable.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour masquer les données conformément à la politique de contrôle d’accès et autres politiques de l’organisme?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour masquer les données conformément à la politique de contrôle d’accès et autres politiques de l’organisme, ainsi qu’aux exigences métier et législation applicable.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "libelle": "Prévention de la fuite de données",
+        "comment": "Des mesures de prévention de la fuite de données doivent être appliquées aux systèmes, aux réseaux et à tous les autres terminaux qui traitent, stockent ou transmettent des informations sensibles.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour prévenir la fuite de données?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour prévenir la fuite de données sur les systèmes, réseaux et autres terminaux.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "libelle": "Sauvegarde des informations",
+        "comment": "Des copies de sauvegarde de l’information, des logiciels et des systèmes doivent être conservées et testées régulièrement selon la politique spécifique à la thématique de la sauvegarde qui a été convenue.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour sauvegarder l’information, les logiciels et les systèmes?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour sauvegarder l’information, les logiciels et les systèmes conformément à la politique de sauvegarde convenue.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "libelle": "Redondance des moyens de traitement de l’information",
+        "comment": "Des moyens de traitement de l’information doivent être mis en œuvre avec suffisamment de redondances pour répondre aux exigences de disponibilité.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour mettre en œuvre une redondance des moyens de traitement de l’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour mettre en œuvre une redondance des moyens de traitement de l’information répondant aux exigences de disponibilité.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "libelle": "Journalisation",
+        "comment": "Des journaux qui enregistrent les activités, les exceptions, les pannes et autres événements pertinents doivent être générés, conservés, protégés et analysés.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour générer, conserver, protéger et analyser les journaux des événements pertinents?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour générer, conserver, protéger et analyser les journaux des événements pertinents.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "libelle": "Activités de surveillance",
+        "comment": "Les réseaux, systèmes et applications doivent être surveillés pour détecter les comportements anormaux et des mesures appropriées doivent être prises pour évaluer les éventuels incidents liés à la sécurité de l’information.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour surveiller et évaluer les incidents liés à la sécurité de l’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour surveiller et évaluer les incidents liés à la sécurité de l’information.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "libelle": "Synchronisation des horloges",
+        "comment": "Les horloges des systèmes de traitement de l’information utilisés par l’organisme doivent être synchronisées avec des sources de temps approuvées.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour synchroniser les horloges des systèmes de traitement de l’information?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour synchroniser les horloges des systèmes de traitement de l’information avec des sources de temps approuvées.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "libelle": "Utilisation de programmes utilitaires à privilèges",
+        "comment": "L’utilisation des programmes utilitaires ayant la capacité de contourner les mesures de sécurité des systèmes ou des applications doit être limitée et contrôlée étroitement.",
+        "questions": [
+          {
+            "numero": 1,
+            "libelle": "Disposez-vous de mesures pour limiter et contrôler l’utilisation des programmes utilitaires à privilèges?",
+            "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour limiter et contrôler l’utilisation des programmes utilitaires à privilèges.",
+            "poids": 1,
+            "level": 1
+          }
+        ]
+      },
+        {
+          "numero": 19,
+          "libelle": "Installation de logiciels sur des systèmes opérationnels",
+          "abrege": "Mesure de sécurité",
+          "comment": "Des procédures et des mesures doivent être mises en œuvre pour gérer de manière sécurisée l’installation de logiciels sur les systèmes opérationnels.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de procédures et de mesures pour gérer de manière sécurisée l’installation de logiciels sur les systèmes opérationnels?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures et de mesures pour gérer de manière sécurisée l’installation de logiciels sur les systèmes opérationnels conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 20,
+          "libelle": "Sécurité des réseaux",
+          "abrege": "Mesure de sécurité",
+          "comment": "Les réseaux et les terminaux réseau doivent être sécurisés, gérés et contrôlés pour protéger les informations des systèmes et des applications.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de mesures pour sécuriser, gérer et contrôler les réseaux et les terminaux réseau afin de protéger les informations des systèmes et des applications?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour sécuriser, gérer et contrôler les réseaux et les terminaux réseau conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 21,
+          "libelle": "Sécurité des services réseau",
+          "abrege": "Mesure de sécurité",
+          "comment": "Les mécanismes de sécurité, les niveaux de service et les exigences de services des services réseau doivent être identifiés, mis en œuvre et surveillés.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de mesures pour identifier, mettre en œuvre et surveiller les mécanismes de sécurité, les niveaux de service et les exigences de services des services réseau?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour identifier, mettre en œuvre et surveiller les mécanismes de sécurité, les niveaux de service et les exigences de services des services réseau conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 22,
+          "libelle": "Cloisonnement des réseaux",
+          "abrege": "Mesure de sécurité",
+          "comment": "Les groupes de services d’information, d’utilisateurs et de systèmes d’information doivent être cloisonnés dans les réseaux de l’organisme.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de mesures pour cloisonner les groupes de services d’information, d’utilisateurs et de systèmes d’information dans les réseaux de l’organisme?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour cloisonner les groupes de services d’information, d’utilisateurs et de systèmes d’information dans les réseaux de l’organisme conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 23,
+          "libelle": "Filtrage web",
+          "abrege": "Mesure de sécurité",
+          "comment": "L’accès aux sites web externes doit être géré pour réduire l’exposition aux contenus malveillants.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de mesures pour gérer l’accès aux sites web externes afin de réduire l’exposition aux contenus malveillants?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour gérer l’accès aux sites web externes conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 24,
+          "libelle": "Utilisation de la cryptographie",
+          "abrege": "Mesure de sécurité",
+          "comment": "Des règles pour l’utilisation efficace de la cryptographie, notamment la gestion des clés cryptographiques, doivent être définies et mises en œuvre.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de règles pour l’utilisation efficace de la cryptographie, y compris la gestion des clés cryptographiques?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de règles pour l’utilisation efficace de la cryptographie, y compris la gestion des clés cryptographiques, conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 25,
+          "libelle": "Cycle de vie de développement sécurisé",
+          "abrege": "Mesure de sécurité",
+          "comment": "Des règles pour le développement sécurisé des logiciels et des systèmes doivent être définies et appliquées.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de règles pour le développement sécurisé des logiciels et des systèmes?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de règles pour le développement sécurisé des logiciels et des systèmes conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 26,
+          "libelle": "Exigences de sécurité des applications",
+          "abrege": "Mesure de sécurité",
+          "comment": "Les exigences de sécurité de l’information doivent être identifiées, spécifiées et approuvées lors du développement ou de l’acquisition d’applications.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de mesures pour identifier, spécifier et approuver les exigences de sécurité de l’information lors du développement ou de l’acquisition d’applications?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour identifier, spécifier et approuver les exigences de sécurité de l’information lors du développement ou de l’acquisition d’applications conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 27,
+          "libelle": "Principes d’ingénierie et d’architecture des systèmes sécurisés",
+          "abrege": "Mesure de sécurité",
+          "comment": "Des principes d’ingénierie des systèmes sécurisés doivent être établis, documentés, tenus à jour et appliqués à toutes les activités de développement de systèmes d’information.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de principes d’ingénierie des systèmes sécurisés établis, documentés, tenus à jour et appliqués à toutes les activités de développement de systèmes d’information?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de principes d’ingénierie des systèmes sécurisés établis, documentés, tenus à jour et appliqués à toutes les activités de développement de systèmes d’information conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 28,
+          "libelle": "Codage sécurisé",
+          "abrege": "Mesure de sécurité",
+          "comment": "Des principes de codage sécurisé doivent être appliqués au développement de logiciels.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de principes de codage sécurisé appliqués au développement de logiciels?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de principes de codage sécurisé appliqués au développement de logiciels conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 29,
+          "libelle": "Tests de sécurité dans le développement et l’acceptation",
+          "abrege": "Mesure de sécurité",
+          "comment": "Des processus pour les tests de sécurité doivent être définis et mis en œuvre au cours du cycle de vie de développement.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de processus pour les tests de sécurité définis et mis en œuvre au cours du cycle de vie de développement?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de processus pour les tests de sécurité définis et mis en œuvre au cours du cycle de vie de développement conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 30,
+          "libelle": "Développement externalisé",
+          "abrege": "Mesure de sécurité",
+          "comment": "L’organisme doit diriger, contrôler et vérifier les activités relatives au développement externalisé des système externalisé.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de mesures pour diriger, contrôler et vérifier les activités relatives au développement externalisé des systèmes?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour diriger, contrôler et vérifier les activités relatives au développement externalisé des systèmes conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 31,
+          "libelle": "Séparation des environnements de développement, de test et opérationnels",
+          "abrege": "Mesure de sécurité",
+          "comment": "Les environnements de développement, de test et opérationnels doivent être séparés et sécurisés.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de mesures pour séparer et sécuriser les environnements de développement, de test et opérationnels?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour séparer et sécuriser les environnements de développement, de test et opérationnels conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 32,
+          "libelle": "Gestion des changements",
+          "abrege": "Mesure de sécurité",
+          "comment": "Les changements apportés aux moyens de traitement de l’information et aux systèmes d’information doivent être soumis à des procédures de gestion des changements.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de procédures de gestion des changements pour les modifications des moyens de traitement de l’information et des systèmes d’information?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de procédures de gestion des changements pour les modifications des moyens de traitement de l’information et des systèmes d’information conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 33,
+          "libelle": "Informations de test",
+          "abrege": "Mesure de sécurité",
+          "comment": "Les informations de test doivent être sélectionnées, protégées et gérées de manière appropriée.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de mesures pour sélectionner, protéger et gérer de manière appropriée les informations de test?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour sélectionner, protéger et gérer de manière appropriée les informations de test conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "numero": 34,
+          "libelle": "Protection des systèmes d’information pendant les tests d’audit",
+          "abrege": "Mesure de sécurité",
+          "comment": "Les tests d’audit et autres activités d’assurance impliquant l’évaluation des systèmes opérationnels doivent être planifiés et convenus entre le testeur et le niveau approprié de la direction.",
+          "questions": [
+            {
+              "numero": 1,
+              "libelle": "Disposez-vous de mesures pour planifier les tests d’audit et autres activités d’assurance impliquant l’évaluation des systèmes opérationnels?",
+              "mesure": "L'organisation doit fournir des preuves documentées montrant qu'elle dispose de mesures pour planifier les tests d’audit et autres activités d’assurance impliquant l’évaluation des systèmes opérationnels conformément aux exigences établies.",
+              "poids": 1,
+              "level": 1
+            }
+          ]
+        }
+      ]
+  }
+]
